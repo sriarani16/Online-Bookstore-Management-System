@@ -1,54 +1,147 @@
 # Online Bookstore Management System
 
-## Project Overview
-This is a full-stack Online Bookstore Management System developed using Spring Boot, React TypeScript, and MySQL. The application allows users to manage books through CRUD operations and is designed to provide a scalable and user-friendly bookstore platform.
+A full-stack **Book Management Web Application** built using **React (TypeScript) and Spring Boot REST API**.  
+This project demonstrates CRUD operations, API integration, and modern frontend UI design.
 
-## Technologies Used
-### Backend
-- Java
-- Spring Boot
-- Spring Data JPA
-- REST APIs
-- MySQL
+---
+
+## Project Overview
+
+This application allows users to:
+
+- View all books in a modern UI
+- View detailed information for each book
+- Add new books
+- Edit existing book details
+- Delete books with confirmation
+- Manage book inventory data
+
+The project simulates a real-world **online bookstore admin system**.
+
+---
+
+## Tech Stack
 
 ### Frontend
-- React
-- TypeScript
+- React (TypeScript)
+- React Router DOM
+- Axios (API calls)
+- Tailwind CSS / CSS (UI styling)
 
-### Tools
-- Git & GitHub
-- Postman
-- IntelliJ IDEA
-- VS Code
+### Backend
+- Spring Boot (REST API)
+- Spring Data JPA
+- Hibernate
+- MySQL / PostgreSQL
+
+---
 
 ## Features
-- Add new books
-- View all books
+
+### Book Management
+- Create new books
+- Read all books
 - Update book details
 - Delete books
-- RESTful API integration
-- User registration and login module (in progress)
-- Planned JWT authentication and role-based access control
 
-## Backend API Endpoints
-### Book APIs
-- GET `/api/books`
-- GET `/api/books/{id}`
-- POST `/api/books`
-- PUT `/api/books/{id}`
-- DELETE `/api/books/{id}`
+### UI/UX
+- Responsive card-based layout
+- Clean navigation bar
+- Book detail page view
+- Modern form design for add/edit
 
-### User APIs
-- POST `/api/users/register`
-- POST `/api/users/login`
+### API Integration
+- Axios-based communication with backend
+- RESTful endpoints
 
-## Future Improvements
-- JWT authentication
+---
+
+## Project Structure
+src/
+├── components/ # Reusable UI components
+├── pages/ # Page-level components
+├── services/ # API calls (Axios)
+├── types/ # TypeScript interfaces
+├── styles/ # CSS/Tailwind styles
+├── App.tsx
+└── index.tsx
+
+
+---
+
+## API Endpoints
+
+| Method | Endpoint        | Description        |
+|--------|----------------|--------------------|
+| GET    | /books         | Fetch all books    |
+| GET    | /books/{id}    | Fetch book by ID   |
+| POST   | /books         | Add new book       |
+| PUT    | /books/{id}    | Update book        |
+| DELETE | /books/{id}    | Delete book        |
+
+
+---
+
+## How to Run Locally
+
+### 1.Clone repo
+```bash
+git clone https://github.com/sriarani16/Online-Bookstore-Management-System.git
+```
+
+---
+
+### 2.Install dependencies
+```bash
+npm install
+```
+
+---
+
+### 3.Start application
+```bash
+npm start
+```
+
+---
+
+### 4.Backend setup
+Spring Boot backend is running at:
+
+```
+http://localhost:8080/books
+```
+
+---
+
+## Key Learnings
+
+- React functional components
+- TypeScript type safety
+- REST API integration using Axios
+- Component-based architecture
+- State management using hooks
+- CRUD operations end-to-end system
+
+---
+
+## Future Enhancements
+
+- Authentication (JWT login system)
 - Admin dashboard
-- Shopping cart functionality
-- Order management
-- Payment gateway integration
-- Responsive UI enhancements
+- Search & filter books
+- Pagination
+- Cloud deployment (AWS / Vercel / Netlify)
+
+---
 
 ## Author
-SRIARANI SURENTHER
+
+**Arani Suren**
+
+- GitHub: https://github.com/sriarani16
+- Location: New Zealand
+```
+
+---
+
