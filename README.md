@@ -81,6 +81,35 @@ src/
 
 
 ---
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home-page.png)
+
+---
+
+### Book Store Page
+![Book Store Page](screenshots/book-store-page.png)
+
+---
+
+### Add Book
+![Add Book](screenshots/add-book.png)
+
+---
+
+### Edit Book Details
+![Edit Book](screenshots/edit-book-details.png)
+
+---
+
+### Book Details Page
+![Book Details](screenshots/book-details.png)
+
+---
+
+### Delete Book
+![Delete Book](screenshots/delete-book.png)
 
 ## How to Run Locally
 
